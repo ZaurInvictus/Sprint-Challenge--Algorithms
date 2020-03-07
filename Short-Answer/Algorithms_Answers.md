@@ -20,5 +20,21 @@ c) This block is 0(n)
     It's about how many times bunny ears will be called
 
 ## Exercise II
+A proper blueprint for this problem can be achieved with a simple loop. 
+I'm going to use a 'while loop' for this example, due to it's true or false nature.
+I would apply two variables to begin -
 
+floor = 0 brokenEgg = false
+
+then i'd apply my while loop while testing the condition of the egg -
+
+while brokenEgg == false:
+
+I would then initiate the process and my first condition would consider if the egg breaks -
+
+if brokenEgg == true: return floor else: repeat the process and floor += 1
+
+We'd continue to go up a floor each time until we reach the floor that returns brokenEgg = true
+
+Solution = O(n)
 
